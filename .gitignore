@@ -1,0 +1,25 @@
+.DS_Store
+.vscode/
+.idea/
+*~
+*.swp
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+data/  # Raw or processed data (if not part of the core project)
+output/  # Model outputs, predictions, etc.
+results/ # Experiment results
+
+Pipfile.lock  # If using Pipenv and not locking dependencies
+poetry.lock  # If using Poetry and not locking dependencies
+
+*.log
+*.sqlite3
+*.db
